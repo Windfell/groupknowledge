@@ -1,9 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
-body {
-  padding: 0 100px 100px;
-  background-color: #ccddee !important;
-}
-
 .article-wrapper {
   -webkit-transition: width 0.4s;
   -moz-transition: width 0.4s;
