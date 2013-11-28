@@ -1,0 +1,107 @@
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dribbble Rebound</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/layout.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style2.css') }}">
+    <link href='http://fonts.googleapis.com/css?family=Fauna+One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="http://artsmc.net/codepen/dribbble/personalsite/css/font-awesome.css"/>
+    <!--[if IE 7]>
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome-ie7.min.css">
+    <![endif]-->
+</head>
+<body>
+<div>
+    <div class="span1"></div>
+    <div class="span10">
+        <h1>Team Blog Sharing</h1>
+        <nav class="first">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#work">WorkLife</a></li>
+                <li><a href="#Todo">ToDo</a></li>
+                <li><a href="#About">About</a></li>
+            </ul>
+        </nav>
+        <div id="content">
+            <div class="container list-article">
+                <div class="btn-group pull-right" id="switch-view">
+                    <button class="btn btn-primary">
+                        <span class="icon-th-large"></span>
+                    </button>
+                    <button class="btn btn-primary active">
+                        <span class="icon-th-list"></span>
+                    </button>
+                </div>
+                <div class="clearfix"></div>
+                <div class="row">
+                    <div class="col-xs-12 article-wrapper">
+                        <article>
+                            <a href="#" class="more">more</a>
+
+                            <div class="img-wrapper"><img src="http://lorempixel.com/150/150/fashion" alt=""/></div>
+                            <h1>Lorem ipsum dolor.</h1>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet ducimus totam quasi nam
+                                porro sed.</p>
+                        </article>
+                    </div>
+                    <div class="col-xs-12 article-wrapper">
+                        <article>
+                            <a href="#" class="more">more</a>
+
+                            <div class="img-wrapper"><img src="http://lorempixel.com/150/150/city" alt=""/></div>
+                            <h1>Dignissimos perferendis quae.</h1>
+
+                            <p>Numquam dolorem sed quae placeat iusto! Quibusdam doloremque enim assumenda aliquam
+                                impedit earum alias labore.</p>
+                        </article>
+                    </div>
+                    <div class="col-xs-12 article-wrapper">
+                        <article>
+                            <a href="#" class="more">more</a>
+
+                            <div class="img-wrapper"><img src="http://lorempixel.com/150/150/food" alt=""/></div>
+                            <h1>Quisquam deserunt cumque!</h1>
+
+                            <p>Dolor tempora nihil facere explicabo qui mollitia deleniti quam quia iure nisi voluptate
+                                voluptatibus cum.</p>
+                        </article>
+                    </div>
+                    <div class="col-xs-12 article-wrapper">
+                        <article>
+                            <a href="#" class="more">more</a>
+
+                            <div class="img-wrapper"><img src="http://lorempixel.com/150/150/nature" alt=""/></div>
+                            <h1>Velit natus possimus.</h1>
+
+                            <p>Illum voluptates nisi asperiores temporibus illo maiores qui aliquid corporis
+                                exercitationem libero dolor tenetur. Doloremque!</p>
+                        </article>
+                    </div>
+                    <div class="col-xs-12 article-wrapper">
+                        <article>
+                            <a href="#" class="more">more</a>
+
+                            <div class="img-wrapper"><img src="http://lorempixel.com/150/150/abstract" alt=""/></div>
+                            <h1>Atque quo maxime.</h1>
+
+                            <p>Sed eveniet iste magni possimus ipsum dolore ea nesciunt eligendi id. Eum quos
+                                voluptatibus ullam.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="span1"></div>
+</div>
+<!-- /container -->
+<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/app2.js') }}"></script>
+</body>
+</html>

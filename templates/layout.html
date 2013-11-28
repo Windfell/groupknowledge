@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--[if IE 9]>
+    <html class="lt-ie10" lang="en" >
+<![endif]-->
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation 5</title>
+    <link rel="stylesheet" href={{ url_for('static', filename='css/normalize.css') }}>
+    <link rel="stylesheet" href={{ url_for('static', filename='css/foundation.min.css') }}>
+    <link rel="stylesheet" href={{ url_for('static', filename='css/style.css') }}>
+    <link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.min.css" rel="stylesheet"/>
+    <!--[if IE 7]>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome-ie7.min.css" rel="stylesheet" />
+	<![endif]-->
+</head>
+<body>
+<nav class="top-bar" data-top-bar>
+    <ul class="title-area">
+        <li class="name">
+            <h1><a href="#">Team Knowledge Transfer</a></h1>
+        </li>
+    </ul>
+
+    <section class="top-bar-section">
+        <!-- Right Nav Section -->
+        <ul class="right">
+            <li class="active"><a href="#">Right Nav Button Active</a></li>
+            <li class="has-dropdown">
+                <a href="#">Right Button with Dropdown</a>
+                <ul class="dropdown">
+                    <li><a href="#">First link in dropdown</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        <!-- Left Nav Section -->
+        <ul class="left">
+            <li><a href="#">Left Nav Button</a></li>
+        </ul>
+    </section>
+</nav>
+
+<ul class="form">
+    <li><a class="profile" href="#"><i class="icon-user"></i>Edit Profile</a></li>
+    <li class="selected"><a class="messages" href="#"><i class="icon-envelope-alt"></i>Messages <em>5</em></a></li>
+    <li><a class="settings" href="#"><i class="icon-cog"></i>Settings</a></li>
+    <li><a class="logout" href="#"><i class="icon-signout"></i>Logout</a></li>
+</ul>
+
+<br/>
+
+<div class="row">
+    <div class="large-6 columns">
+        <ul data-orbit>
+            <li><img src="//placehold.it/1200x300"></li>
+            <li><img src="//placehold.it/1200x300"></li>
+        </ul>
+    </div>
+    <div class="large-6 columns">
+        <div data-alert class="alert-box">
+            Some content goes here!!!!
+            <a href="#" class="close">&times;</a>
+        </div>
+        <div data-alert class="alert-box success radius">
+            Some more content goes here!!!!
+            <a href="#" class="close">&times;</a>
+        </div>
+        <div data-alert class="alert-box alert round">
+            Some more content goes here!!!!
+            <a href="#" class="close">&times;</a>
+        </div>
+    </div>
+</div>
+
+
+<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"/>
+
+<script src={{ url_for('static', filename='js/foundation.min.js') }}/>
+<script src={{ url_for('static', filename='js/app.js') }}/>
+<script> $(document).foundation(); </script>
+</body>
+</html>
